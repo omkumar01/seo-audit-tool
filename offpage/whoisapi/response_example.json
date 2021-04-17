@@ -1,0 +1,66 @@
+{
+  "domain": "heapoftech.live",
+  "domain_id": "d5072ecc1ac54cd6a11df85885c420a5-DONUTS",
+  "status": "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+  "create_date": "2020-12-31T08:17:58Z",
+  "update_date": "2021-01-05T08:18:51Z",
+  "expire_date": "2021-12-31T08:17:58Z",
+  "domain_age": 107,
+  "whois_server": "whois.name.com",
+  "registrar": {
+    "iana_id": "625",
+    "name": "Name.com, Inc.",
+    "url": "http://www.name.com"
+  },
+  "registrant": {
+    "name": "REDACTED FOR PRIVACY",
+    "organization": "Domain Protection Services, Inc.",
+    "street_address": "REDACTED FOR PRIVACY",
+    "city": "REDACTED FOR PRIVACY",
+    "region": "CO",
+    "zip_code": "REDACTED FOR PRIVACY",
+    "country": "US",
+    "phone": "REDACTED FOR PRIVACY",
+    "fax": "REDACTED FOR PRIVACY",
+    "email": "Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name."
+  },
+  "admin": {
+    "name": "REDACTED FOR PRIVACY",
+    "organization": "REDACTED FOR PRIVACY",
+    "street_address": "REDACTED FOR PRIVACY",
+    "city": "REDACTED FOR PRIVACY",
+    "region": "REDACTED FOR PRIVACY",
+    "zip_code": "REDACTED FOR PRIVACY",
+    "country": "REDACTED FOR PRIVACY",
+    "phone": "REDACTED FOR PRIVACY",
+    "fax": "REDACTED FOR PRIVACY",
+    "email": "Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name."
+  },
+  "tech": {
+    "name": "REDACTED FOR PRIVACY",
+    "organization": "REDACTED FOR PRIVACY",
+    "street_address": "REDACTED FOR PRIVACY",
+    "city": "REDACTED FOR PRIVACY",
+    "region": "REDACTED FOR PRIVACY",
+    "zip_code": "REDACTED FOR PRIVACY",
+    "country": "REDACTED FOR PRIVACY",
+    "phone": "REDACTED FOR PRIVACY",
+    "fax": "REDACTED FOR PRIVACY",
+    "email": "Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name."
+  },
+  "billing": {
+    "name": "",
+    "organization": "",
+    "street_address": "",
+    "city": "",
+    "region": "",
+    "zip_code": "",
+    "country": "",
+    "phone": "",
+    "fax": "",
+    "email": ""
+  },
+  "nameservers": ["anuj.ns.cloudflare.com", "crystal.ns.cloudflare.com"],
+  "error_code": "",
+  "error_message": ""
+}
