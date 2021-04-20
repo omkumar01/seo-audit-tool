@@ -4,7 +4,7 @@ from headers import headerCount
 from title import titleText
 from meta import metaTags
 
-url = "https://heapoftech.live"
+url = "https://omkumar01.github.io/"
 
 
 html = requests.get(url)
@@ -14,5 +14,4 @@ page = BeautifulSoup(html.content, "html.parser")
 # print(headerCount(page))
 
 # print(titleText(page))
-
-print(metaTags(page))
+# print(metaTags(page))
