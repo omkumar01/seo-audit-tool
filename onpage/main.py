@@ -3,8 +3,9 @@ from bs4 import BeautifulSoup
 from headers import headerCount
 from title import titleText
 from meta import metaTags
+from schema import checkSchema
 
-url = "https://omkumar01.github.io/"
+url = "https://www.udemy.com/"
 
 
 html = requests.get(url)
@@ -15,3 +16,4 @@ page = BeautifulSoup(html.content, "html.parser")
 
 # print(titleText(page))
 # print(metaTags(page))
+print(checkSchema(page))
