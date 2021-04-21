@@ -4,8 +4,10 @@ from headers import headerCount
 from title import titleText
 from meta import metaTags
 from schema import checkSchema
+from lang import getLang
+from imgdata import imgAlt
 
-url = "https://www.udemy.com/"
+url = "https://heapoftech.live/"
 
 
 html = requests.get(url)
@@ -16,4 +18,8 @@ page = BeautifulSoup(html.content, "html.parser")
 
 # print(titleText(page))
 # print(metaTags(page))
-print(checkSchema(page))
+# print(checkSchema(page))
+
+# print(getLang(page))
+
+# print(imgAlt(page))
