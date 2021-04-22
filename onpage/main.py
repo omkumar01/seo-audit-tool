@@ -13,13 +13,13 @@ url = "https://heapoftech.live/"
 html = requests.get(url)
 page = BeautifulSoup(html.content, "html.parser")
 
-# print(type(page))
-# print(headerCount(page))
+print(type(page))
+print(headerCount(page))
 
-# print(titleText(page))
-# print(metaTags(page))
-# print(checkSchema(page))
+print(titleText(page))
+print(metaTags(page))
+print(checkSchema(page))
 
-# print(getLang(page))
+print(getLang(page))
 
-# print(imgAlt(page))
+print(imgAlt(page))
