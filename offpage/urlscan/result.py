@@ -12,7 +12,14 @@ def exData(response):
 
 
 def useData(data):
+    reData = {}
     ipStats = data["stats"]["ipStats"]
     total_requests = ipStats[0]
-    return total_requests.get("requests")
-    # 1150, 9919
+    reData["total_requests"] = total_requests.get("requests")
+    reData["secure_percentage"] = data["stats"]["securePercentage"]
+    techs = data["meta"]["processors"]["wappa"]["data"]
+    technology_used = []
+    for tech in techs:
+        technology_used.append(tech["app"])
+    reData["technology_used"] = technology_used
+    return reData
